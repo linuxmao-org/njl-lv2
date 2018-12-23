@@ -1,0 +1,8 @@
+@prefix : <http://lv2plug.in/ns/lv2core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix njl:  <http://www.jwm-art.net/lv2/njl/> .
+
+njl:representation_experiments a :Plugin ;
+  :binary <plugin-@OS@.so> ;
+  rdfs:seeAlso <plugin.ttl> ;
+.

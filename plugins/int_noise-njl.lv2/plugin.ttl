@@ -1,0 +1,38 @@
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix njl:  <http://www.jwm-art.net/lv2/njl/> .
+
+njl:int_noise a lv2:Plugin, lv2:GeneratorPlugin ;
+
+  doap:name "Integer Noise (LV2)" ;
+  doap:developer [
+    foaf:name "Nick Lamb" ;
+    foaf:homepage <unknown> ;
+    foaf:mbox <mailto:njl195@zepler.org.uk> ;
+  ] ;
+  doap:maintainer [
+    foaf:name "James Morris" ;
+    foaf:homepage <http://www.jwm-art.net/> ;
+    foaf:mbox <mailto:james@jwm-art.net> ;
+  ] ;
+
+  doap:license <http://usefulinc.com/doap/licenses/gpl> ;
+  lv2:property lv2:hardRtCapable ;
+
+  lv2:port [
+    a lv2:AudioPort, lv2:OutputPort ;
+    lv2:index 0 ;
+    lv2:symbol "output" ;
+    lv2:name "Output" ;
+  ] ;
+
+  lv2:port [
+    a lv2:InputPort, lv2:ControlPort ;
+    lv2:index 1 ;
+    lv2:symbol "bits" ;
+    lv2:name "Bits" ;
+    lv2:default 8 ;
+    lv2:minimum 1 ;
+    lv2:maximum 24 ;
+  ] .
