@@ -45,7 +45,7 @@ njl:representation_experiments a lv2:Plugin, lv2:GeneratorPlugin ;
     lv2:default 16 ;
     lv2:minimum 0 ;
     lv2:maximum 23 ;
-    lv2:portProperty :Integer ;
+    lv2:portProperty lv2:Integer ;
   ] ;
 
   lv2:port [
@@ -56,6 +56,6 @@ njl:representation_experiments a lv2:Plugin, lv2:GeneratorPlugin ;
     lv2:default 6 ;
     lv2:minimum 1 ;
     lv2:maximum 8;
-    lv2:portProperty :Integer ;
+    lv2:portProperty lv2:Integer ;
   ] .
 

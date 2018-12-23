@@ -3,7 +3,7 @@ INSTALL_DIR = $(PREFIX)/lib/lv2
 
 
 PLUGPKG = njl
-VERSION = 0.0.2
+VERSION = 0.0.3
 
 PLUGINS =                                       \
         ieee_noise-njl.lv2                      \
