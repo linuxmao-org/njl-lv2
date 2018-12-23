@@ -26,7 +26,7 @@
 /* lrintf sometimes is not defined */
 extern long int lrintf(float x);
 
-#define RISSET_SCALES_URI "http://www.jwm-art.net/lv2/njl/risset_scales";
+#define RISSET_SCALES_URI "http://jwm-art.net/lv2/njl/risset_scales";
 
 /* size of sinus wavetable */
 #define TBL_SIZE 2048

@@ -29,5 +29,14 @@ this comes from the original developer, the URI may change
 completely. It is suggested that before installing a future
 version, you therefor un-install this version.
 
+CHANGES:
 
+0.0.2
+* LV2 URI prefixes of all plugins have changed from:
+    http://www.jwm-art.net/lv2/njl
+  to:
+    http://jwm-art.net/lv2/njl
 
+* experiments in representation:
+    fixed integer port property (the property 'integer'
+    is now 'Integer').

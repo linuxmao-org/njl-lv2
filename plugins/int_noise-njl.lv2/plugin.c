@@ -26,7 +26,7 @@
 /* lrintf sometimes is not defined */
 extern long int lrintf(float x);
 
-#define INT_NOISE_URI   "http://www.jwm-art.net/lv2/njl/int_noise";
+#define INT_NOISE_URI   "http://jwm-art.net/lv2/njl/int_noise";
 
 static LV2_Descriptor *IntNoiseDescriptor = NULL;
 

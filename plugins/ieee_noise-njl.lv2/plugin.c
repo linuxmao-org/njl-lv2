@@ -23,7 +23,7 @@
 #include <math.h>
 #include <lv2.h>
 
-#define IEEE_NOISE_URI   "http://www.jwm-art.net/lv2/njl/ieee_noise";
+#define IEEE_NOISE_URI   "http://jwm-art.net/lv2/njl/ieee_noise";
 
 static LV2_Descriptor *IeeeNoiseDescriptor = NULL;
 

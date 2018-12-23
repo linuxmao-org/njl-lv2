@@ -26,7 +26,7 @@
 /* lrintf sometimes is not defined */
 extern long int lrintf(float x);
 
-#define REPRESENTATION_EXPERIMENTS_URI "http://www.jwm-art.net/lv2/njl/representation_experiments";
+#define REPRESENTATION_EXPERIMENTS_URI "http://jwm-art.net/lv2/njl/representation_experiments";
 
 static LV2_Descriptor *RepresentationExperimentsDescriptor = NULL;
 
